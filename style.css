@@ -1,0 +1,72 @@
+*{ 
+    margin: 0;
+padding: 0;}
+
+body{ 
+    background-image: url(../image/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    
+    }
+h2, h4{
+    color:#f3f3e2; /* color de texto*/
+   text-align: center 5px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}h3{
+    color:#df2ca3; /* color de texto*/
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+} 
+select{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.61);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1 px solid;
+    border-radius: 5px;
+}
+.content-from{
+    width: 400px;
+    
+    background: #1b1919bd;
+    margin: 0 auto;
+    margin-top : 50px;
+    border: 5px inset #a00747;
+    border-radius: 20px;
+    box-shadow: 15px 20px 45px #89a8ad;
+}
+.controles{
+    width: 90%;
+    margin:center 5px ;
+    padding: 5px;
+    border: 3px solid #3516be;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255,255, 255,0.5);
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#botones{ /* selector de id*/
+    background: #f016a7; /*color en estado de reposo*/
+    color: #19022c;
+    width: 50%;
+    margin-left: 20px;
+    box-shadow:#15d6d6bd ;
+}
+#botones:hover{
+    background: #054252;
+    cursor: pointer;
+    color: #28ad33;
+    padding: 7px; /*hace que cuando pasa el cursor por encima, el botón se haga más grande*/
+
+}.card{
+    width: 100%;
+    height: 100%;
+    cursor: url(https://cdn.custom-cursor.com/db/.custom-cursor/32/colorful_cursor.png),default!important;
+    position: relative;
+
+}
+
+
